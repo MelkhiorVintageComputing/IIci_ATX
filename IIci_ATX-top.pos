@@ -1,0 +1,12 @@
+### Module positions - created on Sun Feb 12 08:44:18 2023 ###
+### Printed by Pcbnew version kicad 5.1.9+dfsg1-1~bpo10+1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val               Package                   PosX       PosY       Rot  Side
+C1        100_nF            C_0603_1608Metric     115.4750  -129.8000  180.0000  top
+D1        Red_Led           LED_0805_2012Metric    94.0000  -135.5000    0.0000  top
+R1        4.7k              R_0603_1608Metric     119.2000  -125.7750   90.0000  top
+R2        1k                R_0603_1608Metric      98.0000  -135.5000  180.0000  top
+R3        4.7k              R_0603_1608Metric     110.6000  -125.6500    0.0000  top
+U2        SN74LVC1G04DBVR_  SOT-23-5              115.8000  -126.6000  180.0000  top
+## End

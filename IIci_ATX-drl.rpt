@@ -1,0 +1,28 @@
+Drill report for /home/dolbeau/MAC/IIci_ATX/IIci_ATX.kicad_pcb
+Created on Sun Feb 12 08:44:26 2023
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'IIci_ATX-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (3 holes)
+    T2  0.80mm  0.031"  (3 holes)
+    T3  1.40mm  0.055"  (34 holes)
+    T4  1.50mm  0.059"  (2 holes)
+
+    Total plated holes count 42
+
+
+Drill file 'IIci_ATX-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.00mm  0.118"  (4 holes)
+
+    Total unplated holes count 4

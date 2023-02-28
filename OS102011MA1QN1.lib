@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# OS102011MA1QN1
+#
+DEF OS102011MA1QN1 U 0 40 Y Y 1 L N
+F0 "U" -100 300 50 H V L BNN
+F1 "OS102011MA1QN1" -100 200 50 H V L BNN
+F2 "OS102011MA1QN1" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+S -200 -400 200 200 0 0 10 f
+X P$1 1 400 100 200 L 40 40 0 0 B 
+X P$2 2 -400 0 200 R 40 40 0 0 B 
+X P$3 3 400 -100 200 L 40 40 0 0 B 
+X SHIELD1 G1 -400 -200 200 R 40 40 0 0 B 
+X SHIELD2 G2 -400 -300 200 R 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library

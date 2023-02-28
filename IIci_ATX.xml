@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/dolbeau/MAC/IIci_ATX/IIci_ATX.sch</source>
+    <date>Sun Feb 12 08:45:28 2023</date>
+    <tool>Eeschema 5.1.9+dfsg1-1~bpo10+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>IIci_ATX.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>15247100</value>
+      <footprint>IIci_ATX:MOLEX_15247100</footprint>
+      <fields>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">11.33 mm</field>
+        <field name="MPN">15-24-7100</field>
+        <field name="PARTREV">X5</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="15247100" part="15247100" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63E7FB88</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>39299246</value>
+      <footprint>IIci_ATX:MOLEX_39299246</footprint>
+      <fields>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="MPN">39-29-9246</field>
+        <field name="PARTREV">A1</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="39299246" part="39299246" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63E82171</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>OS102011MA1QN1</value>
+      <footprint>IIci_ATX:OS102011MA1QN1</footprint>
+      <fields>
+        <field name="MPN">OS102011MA1QN1</field>
+      </fields>
+      <libsource lib="OS102011MA1QN1" part="OS102011MA1QN1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63EC089F</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>SN74LVC1G04DBVR </value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <fields>
+        <field name="MPN">SN74LVC1G04DBVR </field>
+      </fields>
+      <libsource lib="74xGxx" part="74LVC1G04" description="Single NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63ED9EC5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63EEB0B9</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Red Led</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">LTST-C170KRKT</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63F46A79</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">0603WAF1001T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63F4D3C2</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100 nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63EE5537</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63F83F56</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="15247100" part="15247100">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">15247100</field>
+        <field name="Footprint">MOLEX_15247100</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">X5</field>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">11.33 mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="39299246" part="39299246">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">39299246</field>
+        <field name="Footprint">MOLEX_39299246</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">12.80mm</field>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="PARTREV">A1</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xGxx" part="74LVC1G04">
+      <aliases>
+        <alias>74LVC1GU04</alias>
+        <alias>74AHC1G04</alias>
+        <alias>74AHCT1G04</alias>
+        <alias>74AUC1G04</alias>
+        <alias>74AUP1G04</alias>
+        <alias>74AHC1GU04</alias>
+        <alias>74AHCT1GU04</alias>
+        <alias>74AUC1GU04</alias>
+        <alias>74AUP1GU04</alias>
+      </aliases>
+      <description>Single NOT Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G04</field>
+      </fields>
+      <pins>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OS102011MA1QN1" part="OS102011MA1QN1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OS102011MA1QN1</field>
+        <field name="Footprint">OS102011MA1QN1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P$1" type="BiDi"/>
+        <pin num="2" name="P$2" type="BiDi"/>
+        <pin num="3" name="P$3" type="BiDi"/>
+        <pin num="G1" name="SHIELD1" type="BiDi"/>
+        <pin num="G2" name="SHIELD2" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="15247100">
+      <uri>/home/dolbeau/MAC/IIci_ATX/15247100.lib</uri>
+    </library>
+    <library logical="39299246">
+      <uri>/home/dolbeau/MAC/IIci_ATX/39299246.lib</uri>
+    </library>
+    <library logical="74xGxx">
+      <uri>/usr/share/kicad/library/74xGxx.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="OS102011MA1QN1">
+      <uri>/home/dolbeau/MAC/IIci_ATX/OS102011MA1QN1.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="23"/>
+      <node ref="J1" pin="22"/>
+      <node ref="J1" pin="21"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="J1" pin="11"/>
+      <node ref="J1" pin="10"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="3" name="~PS-ON">
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="J1" pin="24"/>
+      <node ref="J1" pin="19"/>
+      <node ref="J1" pin="18"/>
+      <node ref="J1" pin="17"/>
+      <node ref="J1" pin="15"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J2" pin="6"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="G1"/>
+      <node ref="U1" pin="G2"/>
+    </net>
+    <net code="5" name="+5VD">
+      <node ref="J2" pin="10"/>
+      <node ref="J1" pin="9"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="6" name="-12V">
+      <node ref="J1" pin="14"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad13)">
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad12)">
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="11" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad20)">
+      <node ref="J1" pin="20"/>
+    </net>
+    <net code="13" name="~MAC-ON">
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="15" name="MAC-ON">
+      <node ref="U2" pin="2"/>
+      <node ref="J2" pin="9"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="16" name="PGOOD">
+      <node ref="J1" pin="8"/>
+      <node ref="R2" pin="1"/>
+    </net>
+  </nets>
+</export>
